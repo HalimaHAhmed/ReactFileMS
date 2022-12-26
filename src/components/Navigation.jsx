@@ -7,10 +7,13 @@ const Navigationcomponent = ()=>{
         </a>
 
         <ul className="navbar-nav ms-auto me-5">
-            <li className=" btn btn-success btn-sms">
+            <li className=" nav-item mx-2">
                 Login
+                <a className=" btn btn-success btn-sm" href="/login">
+                    Login
+                </a>
             </li>
-            <li className="nav-item" mx-2>
+            <li className="nav-item" >
                 <a className=" btn btn-primary btn-sm" href="/login">
                     Register
                 </a>
